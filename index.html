@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bulkesh Portfolio</title>
+  <link rel="shortcut icon" href="port favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="portfolio.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: "Playfair";
+    }
+  </style>
+</head>
+
+<body class="">
+  <!-- Navbar -->
+  <nav class="text-white h-16">
+    <div
+      class="fixed top-0 z-[100] bg-gray-800 w-full flex justify-between items-center flex-col sm:flex-row py-4 px-6">
+      <a href="#" class="text-2xl font-bold">BULKESH SINHMAR</a>
+      <ul class="flex text-xl space-x-6">
+        <li><a href="#intro" class="hover:text-blue-700">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-700">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-700">Skills</a></li>
+        <li><a href="#projects" class="hover:text-blue-700">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-700">Contact</a></li>
+        <!-- <li id="icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hover:pointer" id="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+</svg></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Intro Section -->
+  <header class="flex justify-around flex-col sm:flex-row" id="intro">
+    <img src="11.jfif" class="w-[35%] md:block sm:hidden hidden overflow-hidden" id="Bulkesh" />
+    <div
+      class="flex flex-col items-between justify-center gap-8 sm:h-[90%] h-[90%] sm:w-[100%] w-[100%] text-xl sm:p-12 py-12 px-2">
+      <p class="text-2xl">
+        <span class="bg-blue-700 text-white  px-4 py-2 rounded mr-4">Hello</span>I'm
+      </p>
+      <div class="flex flex-col gap-8">
+        <h1 class="text-6xl font-bold">Bulkesh Sinhmar</h1>
+        <h2 class="text-4xl font-semibold">
+          MERN STACK <span class="text-blue-700">Developer</span>
+        </h2>
+      </div>
+      <p>
+        Hi, I'm Bulkesh, a passionate and skilled Frontend Developer with a
+        knack for crafting visually appealing, interactive, and responsive web
+        applications. I specialize in turning ideas into digital experiences,
+        ensuring both functionality and user satisfaction.
+      </p>
+      <div class="flex gap-8">
+        <a href="mailto:bulkeshsinhmar@gmail.com"
+          class="bg-blue-700 text-white p-4 rounded hover:text-blue-700 hover:bg-white hover:border hover:border-blue-700">Say
+          Hello</a>
+        <a href="https://drive.google.com/file/d/1PpJKDsCLgK0ZfiFoMHt9AElEl18D2U10/view"
+          class="bg-blue-700 text-white p-4 rounded hover:text-blue-700 hover:bg-white hover:border hover:border-blue-700">
+          Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="flex justify-around items-center sm:h-[90vh] p-6" id="about">
+    <div class="flex flex-col justify-center items-center gap-8 sm:w-[60%]">
+      <div>
+        <h2 class="text-6xl text-center font-semibold">
+          About<span class="text-blue-700">Me</span>
+        </h2>
+        <p class="text-2xl">Creative Frontend Developer</p>
+      </div>
+      <p class="text-xl text-justify">
+        With expertise in HTML, CSS, JavaScript, and frameworks like React, I
+        have developed a wide range of projects, from personal blogs to
+        dynamic e-commerce platforms. My focus is on writing clean, efficient
+        code and creating intuitive user interfaces that align with the latest
+        design trends.
+      </p>
+    </div>
+
+    <!-- <img src="J photo .jpg" class="w-[35%] overflow-hidden" /> -->
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="grid place-items-center h-full py-8 bg-gray-200">
+    <div class="container mx-auto text-center">
+      <h2 class="font-bold text-6xl mb-8">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-12">
+        <div class="flex flex-col items-center">
+          <img src="HTML5_logo_and_wordmark.svg" alt="HTML Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">HTML</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="Html5_css3_styling.svg" alt="CSS Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">CSS</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="javascript-logo.png" alt="JavaScript Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">JavaScript</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="Bootstrap_logo.svg" alt="Bootstrap Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">Bootstrap</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="file-type-tailwind-icon-original.svg" alt="Tailwind Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">Tailwind CSS</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="React_Logo_SVG.svg" alt="React Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">React JS</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="Git.png" alt="React Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">Git</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="github.png" alt="React Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">GitHub</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="mongodb.png" alt="React Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">MongoDb</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="node js.png" alt="React Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">Node Js</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="express.png" alt="React Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">Express Js</h5>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="postman.png" alt="React Icon" class="w-12 h-12 mb-2" />
+          <h5 class="text-lg font-semibold">Postman</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="h-full py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="font-bold text-6xl mb-16">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <a href="https://astounding-lily-ae6cf9.netlify.app/">
+          <div class="bg-white shadow-md p-6 rounded-lg flex">
+            <img src="car_rent.png" class="w-2/5 hover:scale-105 transition-all" alt="" />
+            <div class="w-[60%]">
+              <h5 class="text-xl font-bold mb-2">CAR-RENTAL WEBSITE</h5>
+              <p class="text-justify px-2">
+                Explore available rental cars with a sleek, responsive design and easy-to-use search and booking
+                interface.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="https://clinquant-quokka-58e722.netlify.app/">
+          <div class="bg-white shadow-md p-6 rounded-lg flex">
+            <img src="tour website.png" class="w-2/5 hover:scale-105 transition-all" alt="" />
+            <div class="w-[60%]">
+              <h5 class="text-xl font-bold mb-2">Tour & Travel Booking</h5>
+              <p class="text-justify px-2">
+                Browse and plan your next adventure with an engaging, responsive layout showcasing tour packages and
+                destinations.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="https://super-babka-7bbd1d.netlify.app/">
+          <div class="bg-white shadow-md p-6 rounded-lg flex">
+            <img src="Netflix.png" class="w-2/5 hover:scale-105 transition-all" alt="" />
+            <div class="w-[60%]">
+              <h5 class="text-xl font-bold mb-2">Netflix Clone</h5>
+              <p class="text-justify px-2">
+                Stream your favorite movies and shows with a sleek, responsive interface, featuring easy navigation and
+                dynamic content display.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="https://exquisite-tarsier-e5ec95.netlify.app/">
+          <div class="bg-white shadow-md p-6 rounded-lg flex">
+            <img src="shop-ecommerce.png" class="w-2/5 hover:scale-105 transition-all" alt="" />
+            <div class="w-[60%]">
+              <h5 class="text-xl font-bold mb-2">Shopsy Ecommerce Website</h5>
+              <p class="text-justify p-2">
+                Browse and discover a wide variety of products with an intuitive, user-friendly interface and seamless
+                navigation.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-800 text-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-6xl font-bold mb-6">Contact Me</h2>
+      <p class="text-lg mb-8">
+        Feel free to reach out via LinkedIn or GitHub!
+      </p>
+      <div class="space-x-8">
+        <a href="https://www.linkedin.com/in/bulkesh-sinhmar-b15816275"
+          class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded">LinkedIn</a>
+        <a href="https://github.com/BulkeshSinhmar"
+          class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-2 rounded">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- <script src="portfolio.js"></script> -->
+</body>
+
+</html>
